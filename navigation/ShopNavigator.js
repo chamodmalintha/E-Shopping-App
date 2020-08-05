@@ -118,7 +118,7 @@ const AuthNavigator = createStackNavigator(
   );
   
   const MainNavigator = createSwitchNavigator({
-    Startup: StartupScreen,
+    // Startup: StartupScreen,
     Auth: AuthNavigator,
     Shop: ShopNavigator
   });
